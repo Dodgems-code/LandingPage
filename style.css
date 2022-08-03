@@ -1,11 +1,26 @@
 body {
     font-family: 'roboto', sans-serif;
-    background-color: black
+    background-color: aliceblue;
 }
 
 p {
     font-size: 20px;
     color: #F9FAF8;
+}
+
+.quotetext {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.blacktext
+{
+    color: #1f2937;
+    font-size: 20px;
+    text-align: center;
+    max-width: 300px;
+    font-weight: bolder;
 }
 
 h1 {
@@ -15,13 +30,21 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    text-align: center;
+    font-size: 48px;
+    text-decoration: solid;
+    font-weight: bold;
+    color: #000000
+}
+
 img {
     border-radius: 12px;
 }
 
 button {
     display: inline-block;
-    background-color: #1411c4;
+    background-color: #254064;
     border-radius: 10px;
     border: 4px double #cccccc;
     color: #eeeeee;
@@ -29,9 +52,8 @@ button {
     font-size: 24px;
     padding: 20px;
     width: 150px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-left: 50px
+    margin-left: 290px;
+    margin-top: 40px;
 }
 
 .headerimage {
@@ -81,7 +103,7 @@ button {
     justify-content: center;
     align-items: center;
     height: 700px;
-    background-color: #7e8ea5;
+    background-color: #1f2937;
 }
 
 #maincontent {
@@ -101,16 +123,79 @@ button {
 
 .container3 {
     display: flex;
-    height: 700px;
+    height: 450px;
     background-color: aliceblue;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 #maincontent2 {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    
 }
 
+.img-sizing {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    max-height: 250px;
+}
 
+.quotesection {
+    display: flex;
+    height: 900px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotebox {
+    display: flex;
+    max-width: 1000px;
+}
+
+.quoteboxbottom {
+    display: flex;
+    margin-left: 400px;
+}
+
+.footersection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    height: 350px;
+}
+
+#container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+    background-color: lightblue
+}
+
+.signupleft {
+    align-items: flex-start;
+    display: flex;
+    margin: 40px;
+    
+}
+
+.signupright {
+    display: flex;
+    align-items: flex-end;
+    margin: 40px;   
+}
+
+.copyright {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+}
